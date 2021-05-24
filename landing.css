@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+}
+body{
+	overflow-x: hidden; 
+}
+.header{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.header a{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: black;
+	text-decoration: none;
+}
+.main{
+	background-image: url("https://i.etsystatic.com/12216194/r/il/51244b/893383504/il_1588xN.893383504_r6ul.jpg");
+	height: 500px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+}
+.main h4{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.main button{
+	width: 100px;
+	height: 30px;
+	border-radius: 7px;
+}
+.about{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	width: 80%;
+	margin-left: 10%;
+}
+.container {
+   	display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.about_right img{
+	width: 200px;
+}
+.about_container{
+	display: flex;
+}
+.about_right{
+	width: 20%;
+}
+.about_left{
+	width: 70%;
+}
+.about h3{
+	margin-bottom: 20px;
+}
+.team{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+.team_cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.team_cards div{
+	box-shadow: 0 2px 5px gray;
+	width: 20%;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.team_cards div img{
+	width: 80%;
+}
+.team_cards div p, span{
+	align-self: start;
+}
+.team_name{
+	font-size: 20px;
+}
+.team_position{
+	color: gray;
+	font-size: 12px;
+}
+.team_comment{
+	font-size: 15px;
+}
+.team_cards div button{
+	background-color: rgb(0, 144, 185);
+	margin: 10px;
+	border-radius: 4px;
+}
+.prices{
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.prices_flex{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.prices_text{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.prices_text span{
+	font-size: 11px;
+}
+.prices_base{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+.prices_pro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.prices_premium{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+.prices_base div{
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.prices_base div:nth-child(1){
+	background-color: black;
+	color: white;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.prices_base div:nth-child(7){
+	background-color: #EBE9E9;
+}
+.prices_base div button{
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+}
+.prices_base div span{
+	color: gray;
+	font-size: 9px;
+	display: block;
+	align-self: center;
+	padding: 10px;
+}
+.prices_base div:nth-child(6){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.prices_pro div{
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.prices_pro div:nth-child(1){
+	background-color: blue;
+	color: white;
+	padding: 35px;
+	box-sizing: border-box;
+}
+.prices_pro div:nth-child(7){
+	background-color: #EBE9E9;
+}
+.prices_pro div button{
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+}
+.prices_pro div span{
+	color: gray;
+	font-size: 9px;
+	display: block;
+	align-self: center;
+	padding: 10px;
+}
+.prices_pro div:nth-child(6){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.contacts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	background-color: #e8e8e8;
+	padding-bottom: 20px;
+}
+.contacts_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contacts_contacts{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	margin-left: 9%;
+}
+form{
+	display:flex;
+	flex-direction: column;
+	width: 90vw;
+}
+input{
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+form button{
+	width: 100px;
+	align-self: center;
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+}
+.footer{
+	background-color: black;
+	color: white;
+}
+.prices_premium div{
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.prices_premium div:nth-child(1){
+	background-color: black;
+	color: white;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.prices_premium div:nth-child(7){
+	background-color: #EBE9E9;
+}
+.prices_premium div button{
+	background-color: black;
+	color: white;
+	border-radius: 7px;
+}
+.prices_premium div span{
+	color: gray;
+	font-size: 9px;
+	display: block;
+	align-self: center;
+	padding: 10px;
+}
+.prices_premium div:nth-child(6){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+@media(max-width: 700px){
+	.team_cards{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.team_cards div{
+		width: 80%;
+	}
+	.prices_flex{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.prices_flex div{
+		width: 80%;
+	}
+	.prices_pro{
+		margin-top: 15px;
+	}
+	.prices_premium{
+		margin-top: 15px;
+	}
+	.about_right{
+		display: none;
+	}
+}
